@@ -54,8 +54,7 @@ section.imagem{
 }
 section.imagem>p{
     color: white;
-    background-color: rgba(0, 0, 0, 0.456);
-    display: inline-block;
+    
     width: 300px;
 }
 
