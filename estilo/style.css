@@ -36,12 +36,12 @@ section{
   font-family: 'Sriracha', cursive;
   line-height: 2em;
   font-size: 3.5vh;
-  padding-bottom: 5vw;
-  padding-top: 10vw;
-  padding-left: 5vw;
+
 
 }
-
+section.normal{  padding-bottom: 5vw;
+    padding-top: 10vw;
+    padding-left: 5vw;}
 
 section.imagem{
     background-repeat:no-repeat ;
