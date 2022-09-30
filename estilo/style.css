@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Combo&family=Lobster&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 170px;
+    font-family: 'Abril Fatface', cursive;
+
+}
+header>h1{text-align: center;
+   padding-top: 40px;
+   font-size: 2.5em;
+}
+
+header>p{
+    text-align: center;
+}
+
+header>p>a{
+     color: white;
+     text-decoration: none;
+     font-weight: bold;
+}
+
+header>p>a:hover{ text-decoration: underline;}
+
+section{
+  font-family: 'Sriracha', cursive;
+  line-height: 2em;
+  font-size: 3.5vh;
+  padding-bottom: 5vw;
+  padding-top: 10vw;
+  padding-left: 5vw;
+
+}
+
+
+section.imagem{
+    background-repeat:no-repeat ;
+    background-position: right bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px; 
+    width: 90vw;
+   
+}
+section.imagem>p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.456);
+    display: inline-block;
+    width: 300px;
+}
+
+
+section#img1{
+    background-image:url(../imagens/background001.jpg) ;
+  
+}
+
+section#img2{
+    background-image:url(../imagens/background002.jpg);
+}
