@@ -36,12 +36,12 @@ section{
   font-family: 'Sriracha', cursive;
   line-height: 1.5em;
   font-size: 3.5vh;
-  padding-bottom: 5vw;
-  padding-top: 10vw;
-  padding-left: 5vw;
+
 
 }
-section.normal{ }
+section.normal{   padding-bottom: 5vw;
+    padding-top: 10vw;
+    padding-left: 5vw; }
 
 section.imagem{
     background-repeat:no-repeat ;
@@ -54,8 +54,8 @@ section.imagem{
 }
 section.imagem>p{
     color: white;
-    background-color: rgba(0, 0, 0, 0.227);
-    width: 300px;
+    margin-left: 20px;
+    padding-top: 50px;
 }
 
 
