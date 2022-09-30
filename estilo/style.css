@@ -34,14 +34,14 @@ header>p>a:hover{ text-decoration: underline;}
 
 section{
   font-family: 'Sriracha', cursive;
-  line-height: 2em;
+  line-height: 1.5em;
   font-size: 3.5vh;
-
+  padding-bottom: 5vw;
+  padding-top: 10vw;
+  padding-left: 5vw;
 
 }
-section.normal{  padding-bottom: 5vw;
-    padding-top: 10vw;
-    padding-left: 5vw;}
+section.normal{ }
 
 section.imagem{
     background-repeat:no-repeat ;
@@ -50,11 +50,11 @@ section.imagem{
     background-attachment: fixed;
     height: 450px; 
     width: 90vw;
-   
+
 }
 section.imagem>p{
     color: white;
-    
+    background-color: rgba(0, 0, 0, 0.227);
     width: 300px;
 }
 
